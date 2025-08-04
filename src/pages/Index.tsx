@@ -16,7 +16,7 @@ const Index = () => {
     {
       title: "Portfolio V1", 
       description: "Première version de mon portfolio personnel créée avec Gatsby. Design hexagonal distinctif avec animations élégantes pour présenter mon parcours professionnel.",
-      url: "https://abdelazizjalal.netlify.app",
+      url: "https://abdelazizjalalv1.netlify.app",
       version: "Version 1.0",
       status: "Legacy",
       technologies: ["Gatsby", "JavaScript", "HTML/CSS", "Node.js", "Yarn"]
