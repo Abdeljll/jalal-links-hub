@@ -9,15 +9,15 @@ const Index = () => {
       url: "https://abdelazizjalalv2.netlify.app",
       version: "Version 2.0",
       status: "Actuel",
-      technologies: ["Gatsby", "React", "JavaScript", "Node.js", "Netlify"]
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Netlify"]
     },
     {
       title: "Portfolio V1", 
-      description: "Première version de mon portfolio personnel avec animations élégantes et design hexagonal distinctif. Une approche créative pour présenter mon parcours professionnel.",
+      description: "Première version de mon portfolio personnel créée avec Gatsby. Design hexagonal distinctif avec animations élégantes pour présenter mon parcours professionnel.",
       url: "https://abdelazizjalal.netlify.app",
       version: "Version 1.0",
       status: "Legacy",
-      technologies: ["React", "CSS", "JavaScript", "Animations", "Design System"]
+      technologies: ["Gatsby", "JavaScript", "HTML/CSS", "Node.js", "Yarn"]
     }
   ];
 
@@ -52,13 +52,26 @@ const Index = () => {
                 <span>Montréal, QC</span>
               </div>
               <div className="flex items-center gap-4">
-                <a href="#" className="hover:text-primary transition-colors">
+                <a 
+                  href="https://github.com/Abdeljll" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
                   <Github className="h-5 w-5" />
                 </a>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a 
+                  href="https://www.linkedin.com/in/jalal-abdelaziz/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a 
+                  href="mailto:abdelazizjalal7@icloud.com"
+                  className="hover:text-primary transition-colors"
+                >
                   <Mail className="h-5 w-5" />
                 </a>
               </div>
