@@ -62,20 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
-			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
-			},
-			colors: {
+				},
+				// Custom vibrant colors
 				'neon-pink': 'hsl(var(--neon-pink))',
 				'electric-blue': 'hsl(var(--electric-blue))',
 				'cyber-green': 'hsl(var(--cyber-green))',
 				'sunset-orange': 'hsl(var(--sunset-orange))',
 				'purple-magic': 'hsl(var(--purple-magic))',
 				'coral': 'hsl(var(--coral))'
+			},
+			borderRadius: {
+				lg: 'var(--radius)',
+				md: 'calc(var(--radius) - 2px)',
+				sm: 'calc(var(--radius) - 4px)'
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
