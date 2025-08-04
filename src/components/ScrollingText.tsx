@@ -1,13 +1,17 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 export const ScrollingText = () => {
+  const { t } = useLanguage();
+  
   const skills = [
-    "🚀 Full Stack Developer",
-    "💻 React Expert", 
-    "🎯 TypeScript Ninja",
-    "🔥 Node.js Master",
-    "✨ UI/UX Designer",
-    "⚡ Performance Optimizer",
-    "🎨 Creative Coder",
-    "🌟 Problem Solver"
+    t('skills.fullstack'),
+    t('skills.react'),
+    t('skills.typescript'),
+    t('skills.nodejs'),
+    t('skills.uiux'),
+    t('skills.performance'),
+    t('skills.creative'),
+    t('skills.solver')
   ];
 
   return (

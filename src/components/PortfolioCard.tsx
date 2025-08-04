@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink, Code2, Sparkles } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface PortfolioCardProps {
   title: string;
@@ -11,6 +12,8 @@ interface PortfolioCardProps {
 }
 
 export const PortfolioCard = ({ title, description, url, version, status, technologies }: PortfolioCardProps) => {
+  const { t } = useLanguage();
+  
   const handleClick = () => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
@@ -59,7 +62,7 @@ export const PortfolioCard = ({ title, description, url, version, status, techno
           onClick={handleClick}
           className="w-full inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-primary text-primary-foreground rounded-xl font-bold text-lg shadow-neon hover:shadow-green hover:scale-105 transition-all duration-500 relative overflow-hidden group"
         >
-          <span className="relative z-10">Visiter le site</span>
+          <span className="relative z-10">{t('portfolio.visit')}</span>
           <ExternalLink className="h-5 w-5 relative z-10 group-hover:rotate-12 transition-transform duration-300" />
           <div className="absolute inset-0 bg-gradient-accent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
         </button>
