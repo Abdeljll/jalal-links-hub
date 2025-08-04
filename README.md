@@ -1,73 +1,141 @@
-# Welcome to your Lovable project
+# 🚀 Portfolio Hub - Abdelaziz Jalal
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/478a177e-06fd-451c-884d-73e6301cbbac
+![Portfolio Hub](https://img.shields.io/badge/Portfolio-Hub-blue?style=for-the-badge&logo=react)
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-2025-purple?style=for-the-badge)
 
-## How can I edit this code?
+### 💻 Développeur Full Stack | 🎓 Diplômé en Informatique et Génie Logiciel
+### 📍 Montréal, QC | 🌟 Disponible pour de nouvelles opportunités
 
-There are several ways of editing your application.
+</div>
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/478a177e-06fd-451c-884d-73e6301cbbac) and start prompting.
+## ✨ À Propos
 
-Changes made via Lovable will be committed automatically to this repo.
+Bienvenue sur mon **Portfolio Hub** ! Ce site central regroupe et présente mes différentes versions de portfolio, chacune reflétant mon évolution en tant que développeur créatif et passionné.
 
-**Use your preferred IDE**
+🎯 **Mission** : Créer des expériences web exceptionnelles alliant design moderne et fonctionnalités innovantes.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🌐 Mes Portfolios
 
-Follow these steps:
+### 🔥 Portfolio V2 - Version Actuelle
+- **Design** : Interface moderne et épurée
+- **Technologies** : React, TypeScript, Tailwind CSS, Node.js
+- **Focus** : Projets professionnels et compétences techniques
+- **Lien** : [Portfolio V2](https://abdelazizjalalv2.netlify.app)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 💎 Portfolio V1 - Version Legacy
+- **Design** : Approche créative avec design hexagonal distinctif
+- **Technologies** : Gatsby, JavaScript, HTML/CSS, Node.js, Yarn
+- **Focus** : Animations élégantes et effets visuels
+- **Lien** : [Portfolio V1](https://abdelazizjalal.netlify.app)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Technologies & Outils
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+<div align="center">
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Gatsby](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+</div>
+
+---
+
+## 🎨 Fonctionnalités du Hub
+
+- 🌈 **Design Vibrant** : Interface moderne avec couleurs néon et gradients
+- 🖱️ **Effets Interactifs** : Suivi de souris et animations fluides
+- 📱 **Responsive Design** : Optimisé pour tous les appareils
+- ⚡ **Performance** : Chargement rapide et expérience utilisateur optimale
+- 🎭 **Animations** : Effets visuels sophistiqués et transitions élégantes
+
+---
+
+## 🚀 Installation & Développement
+
+```bash
+# Cloner le repository
+git clone https://github.com/votre-username/portfolio-hub.git
+
+# Naviguer dans le dossier
+cd portfolio-hub
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
+
+# Builder pour la production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📞 Contact & Réseaux
 
-**Use GitHub Codespaces**
+<div align="center">
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdeljll)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jalal-abdelaziz/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdelazizjalal7@icloud.com)
 
-## What technologies are used for this project?
+</div>
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎓 Formation
 
-## How can I deploy this project?
+**Université du Québec À Montréal (UQAM)**  
+*Baccalauréat en Informatique et Génie Logiciel*  
+📅 Septembre 2021 - Mai 2025 | 📍 Montréal, QC
 
-Simply open [Lovable](https://lovable.dev/projects/478a177e-06fd-451c-884d-73e6301cbbac) and click on Share -> Publish.
+**Domaines d'expertise** :
+- Développement Full Stack
+- Algorithmique et Structures de Données
+- Architecture Système
+- Design d'Interface Utilisateur
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📊 Statistiques du Projet
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+<div align="center">
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=abdelazizjalal.portfolio-hub)
+![Last Commit](https://img.shields.io/github/last-commit/votre-username/portfolio-hub?style=flat-square)
+![Languages](https://img.shields.io/github/languages/count/votre-username/portfolio-hub?style=flat-square)
+
+</div>
+
+---
+
+## 📄 Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+---
+
+<div align="center">
+
+### 🌟 Merci de visiter mon Portfolio Hub ! 🌟
+
+*« La créativité rencontre la technologie pour créer des expériences exceptionnelles »*
+
+**© 2025 Abdelaziz Jalal - Tous droits réservés**
+
+</div>
