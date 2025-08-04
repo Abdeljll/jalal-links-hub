@@ -2,49 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Design system for Abdelaziz Portfolio Hub */
+/* Design system for Abdelaziz Portfolio Hub - Vibrant & Dynamic */
 
 @layer base {
   :root {
-    --background: 218 47% 98%;
-    --foreground: 215 25% 27%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
     --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 217 91% 70%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 270 95% 75%;
+    --secondary-foreground: 240 10% 3.9%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 240 5% 26%;
+    --muted-foreground: 240 5% 84%;
 
-    --accent: 172 76% 64%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 142 86% 53%;
+    --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
+    --border: 240 6% 10%;
+    --input: 240 6% 10%;
     --ring: 217 91% 60%;
 
     --radius: 0.75rem;
 
-    /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-background: linear-gradient(135deg, hsl(var(--background)), hsl(210 40% 98%));
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(210 30% 98%));
+    /* Vibrant color palette */
+    --neon-pink: 329 100% 54%;
+    --electric-blue: 199 89% 48%;
+    --cyber-green: 120 100% 50%;
+    --sunset-orange: 25 95% 53%;
+    --purple-magic: 271 81% 56%;
+    --coral: 14 100% 57%;
+
+    /* Dynamic gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--electric-blue)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--neon-pink)), hsl(var(--purple-magic)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--cyber-green)), hsl(var(--accent)));
+    --gradient-background: radial-gradient(ellipse at top, hsl(240 10% 7%), hsl(240 10% 3.9%));
+    --gradient-card: linear-gradient(145deg, hsl(240 8% 6%), hsl(240 10% 8%));
+    --gradient-rainbow: linear-gradient(45deg, hsl(var(--neon-pink)), hsl(var(--electric-blue)), hsl(var(--cyber-green)), hsl(var(--sunset-orange)), hsl(var(--purple-magic)));
     
-    /* Shadows */
-    --shadow-card: 0 4px 6px -1px hsl(var(--primary) / 0.1), 0 2px 4px -1px hsl(var(--primary) / 0.06);
-    --shadow-hover: 0 10px 25px -3px hsl(var(--primary) / 0.15), 0 4px 6px -2px hsl(var(--primary) / 0.1);
+    /* Glowing shadows */
+    --shadow-neon: 0 0 20px hsl(var(--primary) / 0.5), 0 0 40px hsl(var(--primary) / 0.3);
+    --shadow-pink: 0 0 20px hsl(var(--neon-pink) / 0.5), 0 0 40px hsl(var(--neon-pink) / 0.3);
+    --shadow-green: 0 0 20px hsl(var(--cyber-green) / 0.5), 0 0 40px hsl(var(--cyber-green) / 0.3);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -63,42 +75,70 @@
 
     --sidebar-border: 220 13% 91%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    --background: 215 28% 17%;
-    --foreground: 210 40% 98%;
-
-    --card: 215 28% 17%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 215 28% 17%;
-    --popover-foreground: 210 40% 98%;
-
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
     --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 217 91% 70%;
-
-    --secondary: 217 33% 17%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
-
-    --accent: 172 76% 64%;
-    --accent-foreground: 210 40% 98%;
-
+    --secondary: 270 95% 75%;
+    --secondary-foreground: 240 10% 3.9%;
+    --muted: 240 5% 26%;
+    --muted-foreground: 240 5% 84%;
+    --accent: 142 86% 53%;
+    --accent-foreground: 240 10% 3.9%;
     --destructive: 0 63% 31%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 6% 10%;
+    --input: 240 6% 10%;
     --ring: 217 91% 60%;
-    
-    /* Dark mode gradients */
-    --gradient-background: linear-gradient(135deg, hsl(var(--background)), hsl(215 28% 20%));
-    --gradient-card: linear-gradient(145deg, hsl(215 28% 17%), hsl(215 28% 20%));
+  }
+
+  /* Scrolling text animation */
+  @keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  /* Mouse follow effect */
+  .mouse-glow {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, hsl(var(--primary) / 0.15), transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1;
+    transition: transform 0.1s ease-out;
+  }
+
+  /* Neon text effect */
+  .neon-text {
+    text-shadow: 
+      0 0 5px currentColor,
+      0 0 10px currentColor,
+      0 0 15px currentColor,
+      0 0 20px hsl(var(--primary)),
+      0 0 35px hsl(var(--primary)),
+      0 0 40px hsl(var(--primary));
+  }
+
+  /* Rainbow animation */
+  .rainbow-border {
+    background: var(--gradient-rainbow);
+    background-size: 400% 400%;
+    animation: rainbow 3s ease infinite;
+  }
+
+  @keyframes rainbow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
